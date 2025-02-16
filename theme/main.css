@@ -5,36 +5,7 @@ section {
   scroll-margin-top: 70px;
 }
 
-.card {
-  border: 2px solid rgb(204, 204, 204);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px 0px;
-  background-color: rgb(249, 249, 249);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
-}
-
-.displaySmallScreen {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .displaySmallScreen {
-    display: block;
-  }
-}
-
-.displayMediumScreen {
-  display: block;
-}
-
-@media (max-width: 767px) {
-  .displayMediumScreen {
-    display: none;
-  }
-}
-
-.myHobbiesCard {
+.formationFlexBox {
   border: 2px solid rgb(204, 204, 204);
   border-radius: 8px;
   padding: 16px;
